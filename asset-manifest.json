@@ -426,6 +426,29 @@
       "previewSrc": "previews/logos/brand/the-utopia-studio-official-white.png"
     },
     {
+      "id": "logos--brand--the-utopia-studio-wordmark",
+      "name": "The Utopia Studio Wordmark",
+      "alt": "The Utopia Studio orange and charcoal wordmark",
+      "kind": "logo",
+      "src": "logos/brand/the-utopia-studio-wordmark.svg",
+      "folder": "logos/brand",
+      "mediaType": "image/svg+xml",
+      "bytes": 33104,
+      "usage": "Primary The Utopia Studio wordmark. Preserve the orange and charcoal colours, proportions, and clear space.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "cover",
+        "closing",
+        "brand"
+      ],
+      "license": "The Utopia Studio internal brand asset",
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/brand/the-utopia-studio-wordmark.png"
+    },
+    {
       "id": "logos--partners--8090",
       "name": "8090",
       "alt": "8090",
