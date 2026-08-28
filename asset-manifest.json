@@ -1,0 +1,1253 @@
+{
+  "schemaVersion": 1,
+  "brand": {
+    "id": "utopia-default",
+    "name": "The Utopia Studio"
+  },
+  "repository": "https://github.com/aiden150/design-asset",
+  "folders": [
+    {
+      "id": "logos",
+      "label": "Logos",
+      "path": "logos",
+      "children": [
+        {
+          "id": "logos-brand",
+          "label": "Brand",
+          "path": "logos/brand"
+        },
+        {
+          "id": "logos-partners",
+          "label": "Partners",
+          "path": "logos/partners"
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "label": "Images",
+      "path": "images",
+      "children": [
+        {
+          "id": "images-illustrations",
+          "label": "Illustrations",
+          "path": "images/illustrations"
+        }
+      ]
+    },
+    {
+      "id": "photos",
+      "label": "Photos",
+      "path": "photos",
+      "children": [
+        {
+          "id": "photos-team",
+          "label": "Team",
+          "path": "photos/team",
+          "children": [
+            {
+              "id": "photos-team-portraits",
+              "label": "Portraits",
+              "path": "photos/team/portraits"
+            }
+          ]
+        },
+        {
+          "id": "photos-events",
+          "label": "Events",
+          "path": "photos/events"
+        }
+      ]
+    },
+    {
+      "id": "videos",
+      "label": "Videos",
+      "path": "videos",
+      "children": [
+        {
+          "id": "videos-illustrations",
+          "label": "Illustrations",
+          "path": "videos/illustrations"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "images--illustrations--beer",
+      "name": "Beer",
+      "alt": "Beer",
+      "kind": "image",
+      "src": "images/illustrations/beer.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2438413,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--cactus",
+      "name": "Cactus",
+      "alt": "Cactus",
+      "kind": "image",
+      "src": "images/illustrations/cactus.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2775854,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--cards",
+      "name": "Cards",
+      "alt": "Cards",
+      "kind": "image",
+      "src": "images/illustrations/cards.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 1982216,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--digital-hand",
+      "name": "Digital Hand",
+      "alt": "Digital Hand",
+      "kind": "image",
+      "src": "images/illustrations/digital-hand.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2795107,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--digital-human",
+      "name": "Digital Human",
+      "alt": "Digital Human",
+      "kind": "image",
+      "src": "images/illustrations/digital-human.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2651825,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--dog-in-desert",
+      "name": "Dog In Desert",
+      "alt": "Dog In Desert",
+      "kind": "image",
+      "src": "images/illustrations/dog-in-desert.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 3064019,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--doha-oryx",
+      "name": "Doha Oryx",
+      "alt": "Doha Oryx",
+      "kind": "image",
+      "src": "images/illustrations/doha-oryx.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 25148350,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--happy-people",
+      "name": "Happy People",
+      "alt": "Happy People",
+      "kind": "image",
+      "src": "images/illustrations/happy-people.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2305273,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--harness-horse",
+      "name": "Harness Horse",
+      "alt": "Harness Horse",
+      "kind": "image",
+      "src": "images/illustrations/harness-horse.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2860396,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--how-to",
+      "name": "How To",
+      "alt": "How To",
+      "kind": "image",
+      "src": "images/illustrations/how-to.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2806958,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--oryx-painting",
+      "name": "Oryx Painting",
+      "alt": "Oryx Painting",
+      "kind": "image",
+      "src": "images/illustrations/oryx-painting.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2113054,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--oryx",
+      "name": "Oryx",
+      "alt": "Oryx",
+      "kind": "image",
+      "src": "images/illustrations/oryx.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 1933696,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--space",
+      "name": "Space",
+      "alt": "Space",
+      "kind": "image",
+      "src": "images/illustrations/space.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2526792,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "images--illustrations--spacemen",
+      "name": "Spacemen",
+      "alt": "Spacemen",
+      "kind": "image",
+      "src": "images/illustrations/spacemen.png",
+      "folder": "images/illustrations",
+      "mediaType": "image/png",
+      "bytes": 2716619,
+      "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--brand--the-utopia-studio-official-black",
+      "name": "The Utopia Studio Official Black",
+      "alt": "The Utopia Studio Official Black",
+      "kind": "logo",
+      "src": "logos/brand/the-utopia-studio-official-black.svg",
+      "folder": "logos/brand",
+      "mediaType": "image/svg+xml",
+      "bytes": 2828,
+      "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--brand--the-utopia-studio-official-white",
+      "name": "The Utopia Studio Official White",
+      "alt": "The Utopia Studio Official White",
+      "kind": "logo",
+      "src": "logos/brand/the-utopia-studio-official-white.svg",
+      "folder": "logos/brand",
+      "mediaType": "image/svg+xml",
+      "bytes": 2828,
+      "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--8090",
+      "name": "8090",
+      "alt": "8090",
+      "kind": "logo",
+      "src": "logos/partners/8090.jpeg",
+      "folder": "logos/partners",
+      "mediaType": "image/jpeg",
+      "bytes": 2856,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--amd",
+      "name": "AMD",
+      "alt": "AMD",
+      "kind": "logo",
+      "src": "logos/partners/amd.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 694,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--claude",
+      "name": "Claude",
+      "alt": "Claude",
+      "kind": "logo",
+      "src": "logos/partners/claude.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 296,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--convex",
+      "name": "Convex",
+      "alt": "Convex",
+      "kind": "logo",
+      "src": "logos/partners/convex.png",
+      "folder": "logos/partners",
+      "mediaType": "image/png",
+      "bytes": 109134,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--cursor",
+      "name": "Cursor",
+      "alt": "Cursor",
+      "kind": "logo",
+      "src": "logos/partners/cursor.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 17580,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--hosted-ai",
+      "name": "Hosted AI",
+      "alt": "Hosted AI",
+      "kind": "logo",
+      "src": "logos/partners/hosted-ai.png",
+      "folder": "logos/partners",
+      "mediaType": "image/png",
+      "bytes": 631655,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--linear",
+      "name": "Linear",
+      "alt": "Linear",
+      "kind": "logo",
+      "src": "logos/partners/linear.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 468,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--next-js",
+      "name": "Next.js",
+      "alt": "Next.js",
+      "kind": "logo",
+      "src": "logos/partners/next-js.png",
+      "folder": "logos/partners",
+      "mediaType": "image/png",
+      "bytes": 11001,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--nvidia",
+      "name": "NVIDIA",
+      "alt": "NVIDIA",
+      "kind": "logo",
+      "src": "logos/partners/nvidia.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 665,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--posthog",
+      "name": "Posthog",
+      "alt": "Posthog",
+      "kind": "logo",
+      "src": "logos/partners/posthog.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 1011,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--railway",
+      "name": "Railway",
+      "alt": "Railway",
+      "kind": "logo",
+      "src": "logos/partners/railway.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 1047,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--sentry",
+      "name": "Sentry",
+      "alt": "Sentry",
+      "kind": "logo",
+      "src": "logos/partners/sentry.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 701,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--sia",
+      "name": "Sia",
+      "alt": "Sia",
+      "kind": "logo",
+      "src": "logos/partners/sia.jpg",
+      "folder": "logos/partners",
+      "mediaType": "image/jpeg",
+      "bytes": 75881,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--stripe",
+      "name": "Stripe",
+      "alt": "Stripe",
+      "kind": "logo",
+      "src": "logos/partners/stripe.png",
+      "folder": "logos/partners",
+      "mediaType": "image/png",
+      "bytes": 31546,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "logos--partners--vercel",
+      "name": "Vercel",
+      "alt": "Vercel",
+      "kind": "logo",
+      "src": "logos/partners/vercel.svg",
+      "folder": "logos/partners",
+      "mediaType": "image/svg+xml",
+      "bytes": 1076,
+      "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "identity",
+        "partner-strip",
+        "closing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--events--haji-surgery",
+      "name": "Haji Surgery",
+      "alt": "Haji Surgery",
+      "kind": "photo",
+      "src": "photos/events/haji-surgery.jpg",
+      "folder": "photos/events",
+      "mediaType": "image/jpeg",
+      "bytes": 4031495,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--events--haji",
+      "name": "Haji",
+      "alt": "Haji",
+      "kind": "photo",
+      "src": "photos/events/haji.jpg",
+      "folder": "photos/events",
+      "mediaType": "image/jpeg",
+      "bytes": 6582073,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--conversation",
+      "name": "Conversation",
+      "alt": "Conversation",
+      "kind": "photo",
+      "src": "photos/team/conversation.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 5417540,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--abdelrehman-mattar",
+      "name": "Abdelrehman Mattar",
+      "alt": "Abdelrehman Mattar",
+      "kind": "photo",
+      "src": "photos/team/portraits/abdelrehman-mattar.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 69577,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--ahmad-nazzal",
+      "name": "Ahmad Nazzal",
+      "alt": "Ahmad Nazzal",
+      "kind": "photo",
+      "src": "photos/team/portraits/ahmad-nazzal.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 161181,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--alex-san",
+      "name": "Alex San",
+      "alt": "Alex San",
+      "kind": "photo",
+      "src": "photos/team/portraits/alex-san.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 183284,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--alina-tuhina",
+      "name": "Alina Tuhina",
+      "alt": "Alina Tuhina",
+      "kind": "photo",
+      "src": "photos/team/portraits/alina-tuhina.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 199097,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--c",
+      "name": "Team portrait C",
+      "alt": "Team portrait C",
+      "kind": "photo",
+      "src": "photos/team/portraits/c.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 119124,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--james-cannan",
+      "name": "James Cannan",
+      "alt": "James Cannan",
+      "kind": "photo",
+      "src": "photos/team/portraits/james-cannan.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 56348,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--jj-erpaiboon",
+      "name": "Jj Erpaiboon",
+      "alt": "Jj Erpaiboon",
+      "kind": "photo",
+      "src": "photos/team/portraits/jj-erpaiboon.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 197345,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--karan-pinto",
+      "name": "Karan Pinto",
+      "alt": "Karan Pinto",
+      "kind": "photo",
+      "src": "photos/team/portraits/karan-pinto.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 174893,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--koleen-ocampo",
+      "name": "Koleen Ocampo",
+      "alt": "Koleen Ocampo",
+      "kind": "photo",
+      "src": "photos/team/portraits/koleen-ocampo.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 212494,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--konstantin-behr",
+      "name": "Konstantin Behr",
+      "alt": "Konstantin Behr",
+      "kind": "photo",
+      "src": "photos/team/portraits/konstantin-behr.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 177710,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--ollie-graham-yooll",
+      "name": "Ollie Graham Yooll",
+      "alt": "Ollie Graham Yooll",
+      "kind": "photo",
+      "src": "photos/team/portraits/ollie-graham-yooll.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 177269,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--roo-rogers",
+      "name": "Roo Rogers",
+      "alt": "Roo Rogers",
+      "kind": "photo",
+      "src": "photos/team/portraits/roo-rogers.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 210401,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--portraits--shamona-maharaj",
+      "name": "Shamona Maharaj",
+      "alt": "Shamona Maharaj",
+      "kind": "photo",
+      "src": "photos/team/portraits/shamona-maharaj.jpg",
+      "folder": "photos/team/portraits",
+      "mediaType": "image/jpeg",
+      "bytes": 149201,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-2",
+      "name": "Team 2",
+      "alt": "Team 2",
+      "kind": "photo",
+      "src": "photos/team/team-2.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 11222132,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-3",
+      "name": "Team 3",
+      "alt": "Team 3",
+      "kind": "photo",
+      "src": "photos/team/team-3.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 11843026,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-4",
+      "name": "Team 4",
+      "alt": "Team 4",
+      "kind": "photo",
+      "src": "photos/team/team-4.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 4919881,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-meeting",
+      "name": "Team Meeting",
+      "alt": "Team Meeting",
+      "kind": "photo",
+      "src": "photos/team/team-meeting.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 12681255,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-rooftop",
+      "name": "Team Rooftop",
+      "alt": "Team Rooftop",
+      "kind": "photo",
+      "src": "photos/team/team-rooftop.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 11587555,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--team-stairs",
+      "name": "Team Stairs",
+      "alt": "Team Stairs",
+      "kind": "photo",
+      "src": "photos/team/team-stairs.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 14903670,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "photos--team--whiteboard-pods",
+      "name": "Whiteboard Pods",
+      "alt": "Whiteboard Pods",
+      "kind": "photo",
+      "src": "photos/team/whiteboard-pods.jpg",
+      "folder": "photos/team",
+      "mediaType": "image/jpeg",
+      "bytes": 10675717,
+      "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "videos--illustrations--doha-oryx",
+      "name": "Doha Oryx",
+      "alt": "Doha Oryx",
+      "kind": "video",
+      "src": "videos/illustrations/doha-oryx.mp4",
+      "folder": "videos/illustrations",
+      "mediaType": "video/mp4",
+      "bytes": 10951561,
+      "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    },
+    {
+      "id": "videos--illustrations--harness-horse",
+      "name": "Harness Horse",
+      "alt": "Harness Horse",
+      "kind": "video",
+      "src": "videos/illustrations/harness-horse.mp4",
+      "folder": "videos/illustrations",
+      "mediaType": "video/mp4",
+      "bytes": 21295290,
+      "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing"
+      ],
+      "license": "User supplied; external publication rights not independently verified",
+      "credit": "The Utopia Studio"
+    }
+  ]
+}
