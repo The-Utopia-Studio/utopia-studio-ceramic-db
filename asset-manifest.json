@@ -92,7 +92,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/beer.jpg"
     },
     {
       "id": "images--illustrations--cactus",
@@ -113,7 +114,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/cactus.jpg"
     },
     {
       "id": "images--illustrations--cards",
@@ -134,7 +136,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/cards.jpg"
     },
     {
       "id": "images--illustrations--digital-hand",
@@ -155,7 +158,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/digital-hand.jpg"
     },
     {
       "id": "images--illustrations--digital-human",
@@ -176,7 +180,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/digital-human.jpg"
     },
     {
       "id": "images--illustrations--dog-in-desert",
@@ -197,7 +202,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/dog-in-desert.jpg"
     },
     {
       "id": "images--illustrations--doha-oryx",
@@ -218,7 +224,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/doha-oryx.jpg"
     },
     {
       "id": "images--illustrations--happy-people",
@@ -239,7 +246,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/happy-people.jpg"
     },
     {
       "id": "images--illustrations--harness-horse",
@@ -260,7 +268,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/harness-horse.jpg"
     },
     {
       "id": "images--illustrations--how-to",
@@ -281,7 +290,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/how-to.jpg"
     },
     {
       "id": "images--illustrations--oryx-painting",
@@ -302,7 +312,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/oryx-painting.jpg"
     },
     {
       "id": "images--illustrations--oryx",
@@ -323,7 +334,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/oryx.jpg"
     },
     {
       "id": "images--illustrations--space",
@@ -344,7 +356,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/space.jpg"
     },
     {
       "id": "images--illustrations--spacemen",
@@ -365,7 +378,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/images/illustrations/spacemen.jpg"
     },
     {
       "id": "logos--brand--the-utopia-studio-official-black",
@@ -428,7 +442,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/8090.jpg"
     },
     {
       "id": "logos--partners--amd",
@@ -491,7 +506,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/convex.jpg"
     },
     {
       "id": "logos--partners--cursor",
@@ -533,7 +549,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/hosted-ai.jpg"
     },
     {
       "id": "logos--partners--linear",
@@ -575,7 +592,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/next-js.jpg"
     },
     {
       "id": "logos--partners--nvidia",
@@ -680,7 +698,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/sia.jpg"
     },
     {
       "id": "logos--partners--stripe",
@@ -701,7 +720,8 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/logos/partners/stripe.jpg"
     },
     {
       "id": "logos--partners--vercel",
@@ -743,7 +763,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/events/haji-surgery.jpg"
     },
     {
       "id": "photos--events--haji",
@@ -764,7 +785,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/events/haji.jpg"
     },
     {
       "id": "photos--team--conversation",
@@ -785,7 +807,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/conversation.jpg"
     },
     {
       "id": "photos--team--portraits--abdelrehman-mattar",
@@ -806,7 +829,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/abdelrehman-mattar.jpg"
     },
     {
       "id": "photos--team--portraits--ahmad-nazzal",
@@ -827,7 +851,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/ahmad-nazzal.jpg"
     },
     {
       "id": "photos--team--portraits--alex-san",
@@ -848,7 +873,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/alex-san.jpg"
     },
     {
       "id": "photos--team--portraits--alina-tuhina",
@@ -869,7 +895,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/alina-tuhina.jpg"
     },
     {
       "id": "photos--team--portraits--c",
@@ -890,7 +917,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/c.jpg"
     },
     {
       "id": "photos--team--portraits--james-cannan",
@@ -911,7 +939,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/james-cannan.jpg"
     },
     {
       "id": "photos--team--portraits--jj-erpaiboon",
@@ -932,7 +961,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/jj-erpaiboon.jpg"
     },
     {
       "id": "photos--team--portraits--karan-pinto",
@@ -953,7 +983,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/karan-pinto.jpg"
     },
     {
       "id": "photos--team--portraits--koleen-ocampo",
@@ -974,7 +1005,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/koleen-ocampo.jpg"
     },
     {
       "id": "photos--team--portraits--konstantin-behr",
@@ -995,7 +1027,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/konstantin-behr.jpg"
     },
     {
       "id": "photos--team--portraits--ollie-graham-yooll",
@@ -1016,7 +1049,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/ollie-graham-yooll.jpg"
     },
     {
       "id": "photos--team--portraits--roo-rogers",
@@ -1037,7 +1071,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/roo-rogers.jpg"
     },
     {
       "id": "photos--team--portraits--shamona-maharaj",
@@ -1058,7 +1093,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/portraits/shamona-maharaj.jpg"
     },
     {
       "id": "photos--team--team-2",
@@ -1079,7 +1115,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-2.jpg"
     },
     {
       "id": "photos--team--team-3",
@@ -1100,7 +1137,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-3.jpg"
     },
     {
       "id": "photos--team--team-4",
@@ -1121,7 +1159,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-4.jpg"
     },
     {
       "id": "photos--team--team-meeting",
@@ -1142,7 +1181,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-meeting.jpg"
     },
     {
       "id": "photos--team--team-rooftop",
@@ -1163,7 +1203,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-rooftop.jpg"
     },
     {
       "id": "photos--team--team-stairs",
@@ -1184,7 +1225,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/team-stairs.jpg"
     },
     {
       "id": "photos--team--whiteboard-pods",
@@ -1205,7 +1247,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/photos/team/whiteboard-pods.jpg"
     },
     {
       "id": "videos--illustrations--doha-oryx",
@@ -1226,7 +1269,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/videos/illustrations/doha-oryx.jpg"
     },
     {
       "id": "videos--illustrations--harness-horse",
@@ -1247,7 +1291,8 @@
         "marketing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "previewSrc": "previews/videos/illustrations/harness-horse.jpg"
     }
   ]
 }
