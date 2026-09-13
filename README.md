@@ -1,6 +1,10 @@
 # The Utopia Studio Design Assets
 
-The source-of-truth asset library for The Utopia Studio brand room.
+The source-of-truth asset library for the Ceramic Utopia and Utopia Cloudblur brand rooms.
+
+Repository: https://github.com/The-Utopia-Studio/utopia-studio-ceramic-db
+
+Migrated from `aiden150/design-asset` at `4148bc44581b4d76e9d7acb2402544319dde58e6`, preserving the complete Git history and all asset paths.
 
 ## Structure
 

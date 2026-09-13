@@ -4,7 +4,7 @@
     "id": "utopia-default",
     "name": "The Utopia Studio"
   },
-  "repository": "https://github.com/aiden150/design-asset",
+  "repository": "https://github.com/The-Utopia-Studio/utopia-studio-ceramic-db",
   "folders": [
     {
       "id": "logos",
@@ -84,7 +84,8 @@
       "bytes": 2438413,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -106,7 +107,8 @@
       "bytes": 2775854,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -128,7 +130,8 @@
       "bytes": 1982216,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -150,7 +153,8 @@
       "bytes": 2795107,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -172,7 +176,8 @@
       "bytes": 2651825,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -194,7 +199,8 @@
       "bytes": 3064019,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -216,7 +222,8 @@
       "bytes": 25148350,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -238,7 +245,8 @@
       "bytes": 2305273,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -260,7 +268,8 @@
       "bytes": 2860396,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -282,7 +291,8 @@
       "bytes": 2806958,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -304,7 +314,8 @@
       "bytes": 2113054,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -326,7 +337,8 @@
       "bytes": 1933696,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -348,7 +360,8 @@
       "bytes": 2526792,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -370,7 +383,8 @@
       "bytes": 2716619,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -392,7 +406,8 @@
       "bytes": 2828,
       "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -414,7 +429,8 @@
       "bytes": 2828,
       "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -436,7 +452,8 @@
       "bytes": 33104,
       "usage": "Primary The Utopia Studio wordmark. Preserve the orange and charcoal colours, proportions, and clear space.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -459,7 +476,8 @@
       "bytes": 2856,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -481,7 +499,8 @@
       "bytes": 694,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -502,7 +521,8 @@
       "bytes": 296,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -523,7 +543,8 @@
       "bytes": 109134,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -545,7 +566,8 @@
       "bytes": 17580,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -566,7 +588,8 @@
       "bytes": 631655,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -588,7 +611,8 @@
       "bytes": 468,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -609,7 +633,8 @@
       "bytes": 11001,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -631,7 +656,8 @@
       "bytes": 665,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -652,7 +678,8 @@
       "bytes": 1011,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -673,7 +700,8 @@
       "bytes": 1047,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -694,7 +722,8 @@
       "bytes": 701,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -715,7 +744,8 @@
       "bytes": 75881,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -737,7 +767,8 @@
       "bytes": 31546,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -759,7 +790,8 @@
       "bytes": 1076,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "identity",
@@ -780,7 +812,8 @@
       "bytes": 4031495,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -802,7 +835,8 @@
       "bytes": 6582073,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -824,7 +858,8 @@
       "bytes": 5417540,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -846,7 +881,8 @@
       "bytes": 69577,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -868,7 +904,8 @@
       "bytes": 161181,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -890,7 +927,8 @@
       "bytes": 183284,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -912,7 +950,8 @@
       "bytes": 199097,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -934,7 +973,8 @@
       "bytes": 119124,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -956,7 +996,8 @@
       "bytes": 56348,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -978,7 +1019,8 @@
       "bytes": 197345,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1000,7 +1042,8 @@
       "bytes": 174893,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1022,7 +1065,8 @@
       "bytes": 212494,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1044,7 +1088,8 @@
       "bytes": 177710,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1066,7 +1111,8 @@
       "bytes": 177269,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1088,7 +1134,8 @@
       "bytes": 210401,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1110,7 +1157,8 @@
       "bytes": 149201,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1132,7 +1180,8 @@
       "bytes": 11222132,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1154,7 +1203,8 @@
       "bytes": 11843026,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1176,7 +1226,8 @@
       "bytes": 4919881,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1198,7 +1249,8 @@
       "bytes": 12681255,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1220,7 +1272,8 @@
       "bytes": 11587555,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1242,7 +1295,8 @@
       "bytes": 14903670,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1264,7 +1318,8 @@
       "bytes": 10675717,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1286,7 +1341,8 @@
       "bytes": 10951561,
       "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
@@ -1308,7 +1364,8 @@
       "bytes": 21295290,
       "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
       "themes": [
-        "utopia-default"
+        "utopia-default",
+        "utopia-cloudblur"
       ],
       "placements": [
         "editorial",
