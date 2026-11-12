@@ -58,6 +58,11 @@
           "id": "animations-source",
           "label": "Source code",
           "path": "animations/source"
+        },
+        {
+          "id": "animations-3d",
+          "label": "3D models",
+          "path": "animations/3d"
         }
       ]
     },
@@ -68,6 +73,68 @@
     }
   ],
   "assets": [
+    {
+      "id": "fellowship--astrolabe-motion-source",
+      "name": "Astrolabe — articulated scroll animation source",
+      "alt": "Astrolabe — articulated scroll animation source",
+      "kind": "source",
+      "src": "animations/source/astrolabe-motion-source.zip",
+      "folder": "animations/source",
+      "mediaType": "application/zip",
+      "bytes": 12434,
+      "sha256": "dcfc2d09bd27af46833ba20de0bef0e14aacb2ae58b9c2b71e5133e2d49e0386",
+      "usage": "Editable Three.js reconstruction: separate case, climate plate, rete, pointer and axle; internal rotation and scroll separation/reassembly. Includes reduced motion and static fallback. This is a new fellowship extension, not part of the pinned homepage source.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "User supplied Studio asset; Three.js dependency retains its MIT license.",
+      "credit": "The Utopia Studio",
+      "previewSrc": "animations/previews/fellowship-astrolabe.png",
+      "source": {
+        "origin": "Fellowship redesign, user-directed extension",
+        "date": "2026-11-12",
+        "homepageSnapshot": false
+      }
+    },
+    {
+      "id": "fellowship--astrolabe-original-glb",
+      "name": "Astrolabe — original supplied 3D model",
+      "alt": "Astrolabe — original supplied 3D model",
+      "kind": "source",
+      "src": "animations/3d/studio-astrolabe.glb",
+      "folder": "animations/3d",
+      "mediaType": "model/gltf-binary",
+      "bytes": 7326312,
+      "sha256": "433f2bb85a9a4b87353778147e291caf056907c64f68e780a5aa5829aba3f89a",
+      "usage": "Original supplied fused GLB, preserved byte-for-byte. The fellowship scroll animation uses a separate articulated reconstruction.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "User supplied Studio asset; Three.js dependency retains its MIT license.",
+      "credit": "The Utopia Studio",
+      "previewSrc": "animations/previews/fellowship-astrolabe.png",
+      "source": {
+        "origin": "Fellowship redesign, user-directed extension",
+        "date": "2026-11-12",
+        "homepageSnapshot": false
+      }
+    },
     {
       "id": "homepage--logos-brand-current-the-utopia-studio-wordmark-avif",
       "name": "The Utopia Studio",
