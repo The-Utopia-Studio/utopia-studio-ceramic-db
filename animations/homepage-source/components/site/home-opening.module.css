@@ -1,0 +1,23 @@
+.hero {
+  z-index: 0;
+  pointer-events: none;
+}
+
+.content {
+  width: 100%;
+  pointer-events: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero { z-index: auto; }
+  .content { transform: none !important; opacity: 1 !important; }
+}
+
+.summary {
+  max-width: var(--measure-about-max-width-2);
+  margin: 0 auto var(--space-8);
+  padding-inline: var(--gutter);
+  color: var(--color-text-secondary);
+  font-size: var(--type-body);
+  line-height: var(--lh-body);
+}

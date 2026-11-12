@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -150 1000 1150" class="uds-studio-astrolabe-mark" aria-hidden="true" focusable="false" style="opacity:1;transform:none"><style>.uds-studio-astrolabe-mark {
+  display: block;
+  width: var(--space-20);
+  height: auto;
+  margin: 0 auto var(--space-6);
+  color: var(--color-text-primary);
+  pointer-events: none;
+}
+/* Independent SVG layers keep idle motion separate from the scroll transform. */
+.uds-studio-astrolabe-dial, .uds-studio-astrolabe-rete, .uds-studio-astrolabe-alidade, .uds-studio-astrolabe-pulse {
+  transform-box: view-box;
+  transform-origin: var(--layout-hero-astrolabe-transform-origin) var(--layout-hero-astrolabe-transform-origin);
+}
+@media (prefers-reduced-motion: no-preference) {
+.uds-studio-astrolabe-dial { animation: uds-studio-turn var(--motion-hero-astrolabe-cycle) linear infinite reverse; }
+.uds-studio-astrolabe-rete { animation: uds-studio-turn var(--motion-hero-astrolabe-cycle-2) linear infinite; }
+.uds-studio-astrolabe-alidade { animation: uds-studio-sweep var(--motion-hero-astrolabe-cycle-3) ease-in-out infinite; }
+.uds-studio-astrolabe-pulse { animation: uds-studio-pulse var(--motion-hero-astrolabe-cycle-4) ease-out infinite; }
+}
+.uds-studio-astrolabe-core { filter: drop-shadow(0 0 var(--layout-hero-astrolabe-filter) var(--color-text-home-accent)); }
+@keyframes uds-studio-turn { to { transform: rotate(360deg); } }
+@keyframes uds-studio-sweep {
+  0%, 100% { transform: rotate(-18deg); }
+  50% { transform: rotate(28deg); }
+}
+@keyframes uds-studio-pulse {
+  0% { transform: scale(.65); opacity: 0; }
+  20% { opacity: .55; }
+  85%, 100% { transform: scale(2.1); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .uds-studio-astrolabe-dial, .uds-studio-astrolabe-rete, .uds-studio-astrolabe-alidade, .uds-studio-astrolabe-pulse { animation: none; }
+  .uds-studio-astrolabe-pulse { opacity: 0; }
+}
+:root{--color-bg-default:#3C3235;--color-text-primary:#FFFFFF;--color-text-home-accent:#CC5536;--space-20:80px;--space-6:24px;--layout-hero-astrolabe-transform-origin:500px;--layout-hero-astrolabe-filter:14px;--motion-hero-astrolabe-cycle:48000ms;--motion-hero-astrolabe-cycle-2:24000ms;--motion-hero-astrolabe-cycle-3:12000ms;--motion-hero-astrolabe-cycle-4:4000ms;} svg.uds-studio-astrolabe-mark{width:100%;margin:0;background:var(--color-bg-default)}</style><defs><clipPath id="_R_0_"><circle cx="500" cy="500" r="420"></circle></clipPath></defs><g fill="none" stroke="currentColor" stroke-opacity="0.9"><circle cx="500" cy="-100" r="42" stroke-width="7"></circle><circle cx="500" cy="-34" r="16" stroke-width="7"></circle><path d="M432 26 C458 20 466 4 478 -12 L522 -12 C534 4 542 20 568 26" stroke-width="7"></path><circle cx="500" cy="500" r="478" stroke-width="8"></circle><circle cx="500" cy="500" r="436" stroke-width="5"></circle><circle class="uds-studio-astrolabe-dial" cx="500" cy="500" r="457" stroke-width="26" stroke-dasharray="5 75.8"></circle></g><g fill="none" stroke="currentColor" stroke-opacity="0.35" stroke-width="4" clip-path="url(#_R_0_)"><circle cx="500" cy="500" r="275.9"></circle><path d="M500 80 L500 920 M80 500 L920 500"></path><circle cx="500" cy="405.2" r="645" stroke-opacity="0.6" stroke-width="5"></circle><circle cx="500" cy="664.4" r="336.7"></circle><circle cx="500" cy="755.5" r="197.3"></circle><circle cx="500" cy="795.7" r="106.6"></circle></g><g class="uds-studio-astrolabe-rete"><g fill="none" stroke="var(--color-text-home-accent)" stroke-width="8" stroke-linecap="round"><circle cx="500" cy="619.5" r="300.5"></circle><path d="M880 590 A410 410 0 0 1 120 590"></path><path d="M120 500 L880 500"></path><path d="M500 319 C472 270 520 224 500 175"></path><path d="M397 338 Q373 305 366 250"></path><path d="M786 540 Q814 542 830 514"></path><path d="M330 862 Q342 832 368 826"></path></g><g fill="var(--color-text-home-accent)"><circle cx="500" cy="175" r="18"></circle><circle cx="366" cy="250" r="18"></circle><circle cx="830" cy="514" r="18"></circle><circle cx="368" cy="826" r="18"></circle></g></g><g class="uds-studio-astrolabe-alidade"><path d="M474 72 L500 40 L526 72 L526 928 L500 960 L474 928 Z" fill="var(--color-bg-default)" stroke="currentColor" stroke-opacity="0.9" stroke-width="6"></path></g><circle class="uds-studio-astrolabe-pulse" cx="500" cy="500" r="65" fill="none" stroke="var(--color-text-home-accent)" stroke-width="5"></circle><circle cx="500" cy="500" r="40" fill="var(--color-bg-default)" stroke="currentColor" stroke-width="6"></circle><circle cx="500" cy="500" r="16" fill="var(--color-text-home-accent)" class="uds-studio-astrolabe-core"></circle></svg>

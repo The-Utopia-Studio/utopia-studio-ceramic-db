@@ -2,7 +2,11 @@
   "schemaVersion": 1,
   "brand": {
     "id": "utopia-default",
-    "name": "The Utopia Studio"
+    "name": "The Utopia Studio",
+    "aliases": [
+      "utopia-studio"
+    ],
+    "themeSource": "https://github.com/The-Utopia-Studio/Ceramic-Design-System/tree/main/packages/design-system/src/themes/utopia-studio.css"
   },
   "repository": "https://github.com/The-Utopia-Studio/utopia-studio-ceramic-db",
   "folders": [
@@ -13,25 +17,13 @@
       "children": [
         {
           "id": "logos-brand",
-          "label": "Brand",
-          "path": "logos/brand"
+          "label": "Current identity",
+          "path": "logos/brand/current"
         },
         {
-          "id": "logos-partners",
-          "label": "Partners",
-          "path": "logos/partners"
-        }
-      ]
-    },
-    {
-      "id": "images",
-      "label": "Images",
-      "path": "images",
-      "children": [
-        {
-          "id": "images-illustrations",
-          "label": "Illustrations",
-          "path": "images/illustrations"
+          "id": "logos-homepage",
+          "label": "Homepage ventures & partners",
+          "path": "logos/partners/homepage"
         }
       ]
     },
@@ -41,38 +33,2296 @@
       "path": "photos",
       "children": [
         {
-          "id": "photos-team",
-          "label": "Team",
-          "path": "photos/team",
-          "children": [
-            {
-              "id": "photos-team-portraits",
-              "label": "Portraits",
-              "path": "photos/team/portraits"
-            }
-          ]
+          "id": "photos-team-current",
+          "label": "Current team",
+          "path": "photos/team/current"
         },
         {
-          "id": "photos-events",
-          "label": "Events",
-          "path": "photos/events"
+          "id": "photos-fellows",
+          "label": "Fellows",
+          "path": "photos/fellows"
         }
       ]
     },
     {
-      "id": "videos",
-      "label": "Videos",
-      "path": "videos",
+      "id": "animations",
+      "label": "Animations & SVG",
+      "path": "animations",
       "children": [
         {
-          "id": "videos-illustrations",
-          "label": "Illustrations",
-          "path": "videos/illustrations"
+          "id": "animations-svg",
+          "label": "SVG artwork",
+          "path": "animations/svg"
+        },
+        {
+          "id": "animations-source",
+          "label": "Source code",
+          "path": "animations/source"
         }
       ]
+    },
+    {
+      "id": "typography",
+      "label": "Typography",
+      "path": "typography"
     }
   ],
   "assets": [
+    {
+      "id": "homepage--logos-brand-current-the-utopia-studio-wordmark-avif",
+      "name": "The Utopia Studio",
+      "alt": "The Utopia Studio",
+      "kind": "logo",
+      "src": "logos/brand/current/the-utopia-studio-wordmark.avif",
+      "folder": "logos/brand/current",
+      "mediaType": "image/avif",
+      "bytes": 11711,
+      "sha256": "49e38cb272ebf6d7b2f0a5b2b370afb98e6d191b695511686acd51eeb4bcf841",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/logo/the-utopia-studio-wordmark.avif"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-evos-jpeg",
+      "name": "Urav Shah",
+      "alt": "Urav Shah",
+      "kind": "photo",
+      "src": "photos/fellows/EVOS.jpeg",
+      "folder": "photos/fellows",
+      "mediaType": "image/jpeg",
+      "bytes": 46030,
+      "sha256": "cd39a651466bbe6f28755e72962016be9a6e4484a115b5273c471e09191c4eeb",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/EVOS.jpeg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-evos-logo-png",
+      "name": "evos-logo",
+      "alt": "evos-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/evos-logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 11072,
+      "sha256": "7bc85a21a655af2456b703b5ad08d278751424ac5d9e2f970349ea310314b8d0",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/evos-logo.png"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-alexandra-coleman-portrait-webp",
+      "name": "Alexandra Coleman",
+      "alt": "Alexandra Coleman",
+      "kind": "photo",
+      "src": "photos/fellows/alexandra-coleman-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 243814,
+      "sha256": "03aa0d17f17d09022798f56b86e800545f7ff06a5ea52c555fa2aa83fc87ab85",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/alexandra-coleman-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-azraq-logo-svg",
+      "name": "azraq-logo",
+      "alt": "azraq-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/azraq-logo.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 4019,
+      "sha256": "9ce60c34b94d36dbab6eaa476e644b1f89223ab45d06c11e1e26c223e9623391",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/azraq-logo.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-amyn-haji-portrait-webp",
+      "name": "Dr Amyn Haji",
+      "alt": "Dr Amyn Haji",
+      "kind": "photo",
+      "src": "photos/fellows/amyn-haji-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 203352,
+      "sha256": "651b34e77972138dbbb640bf810cdceaa5ecc98d7a9a1f96c4b0868e5104fc65",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/amyn-haji-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-mentix-logo-svg",
+      "name": "mentix-logo",
+      "alt": "mentix-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/mentix-logo.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 110070,
+      "sha256": "16ee4217d40076b5327e18f7b8b52bf03213e3aae9970902e9807dfffd610405",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/mentix-logo.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-abdallah-abu-taleb-portrait-webp",
+      "name": "Abdallah Abu-Taleb",
+      "alt": "Abdallah Abu-Taleb",
+      "kind": "photo",
+      "src": "photos/fellows/abdallah-abu-taleb-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 191382,
+      "sha256": "480d661a049703f69c5599c610650687f9466606d2509e7155bdfc8468b124e3",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/abdallah-abu-taleb-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-renacore-symbol-svg",
+      "name": "renacore-symbol",
+      "alt": "renacore-symbol",
+      "kind": "logo",
+      "src": "logos/partners/homepage/renacore-symbol.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 1158,
+      "sha256": "3107299f2ba1cd9e1ceb2f1a982a938ab9911a1faae14bf614a4abc7afc6d11f",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/renacore-symbol.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-staniz-stanislaus-portrait-webp",
+      "name": "Staniz Stanislaus",
+      "alt": "Staniz Stanislaus",
+      "kind": "photo",
+      "src": "photos/fellows/staniz-stanislaus-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 32032,
+      "sha256": "1a5d36e2eccac6df12bf3b7ea98249d4d551b37193a87580103bd7c921db93d0",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/staniz-stanislaus-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-phares-kariuki-portrait-webp",
+      "name": "Phares Kariuki",
+      "alt": "Phares Kariuki",
+      "kind": "photo",
+      "src": "photos/fellows/phares-kariuki-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 25020,
+      "sha256": "725fc0e4fd069203eb81c6f6221f7562e0510af50bfe47f5b735c857118cda71",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/phares-kariuki-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-red-onion-logo-png",
+      "name": "red-onion-logo",
+      "alt": "red-onion-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/red-onion-logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 33397,
+      "sha256": "ef9e6149935c5a29ac3edc913a435b1815086ac2785bfd1773c0084a4f30de58",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/red-onion-logo.png"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-ruby-smith-portrait-webp",
+      "name": "Ruby Smith",
+      "alt": "Ruby Smith",
+      "kind": "photo",
+      "src": "photos/fellows/ruby-smith-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 347108,
+      "sha256": "0067fb9c9775d2070cd0149bd9b9e13c73804499e5eec2beda459c07902616f5",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/ruby-smith-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-serve-logo-png",
+      "name": "serve-logo",
+      "alt": "serve-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/serve-logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 274169,
+      "sha256": "09cd6fe536edc685e8384858eb44a8b314d779b074d520356e466655dd221c72",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/serve-logo.png"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-adiba-jpeg",
+      "name": "Elias El-Hisnawi",
+      "alt": "Elias El-Hisnawi",
+      "kind": "photo",
+      "src": "photos/fellows/Adiba.jpeg",
+      "folder": "photos/fellows",
+      "mediaType": "image/jpeg",
+      "bytes": 20041,
+      "sha256": "1418e3a11b1170a2574dfd40352ea1fa86dae9aabb4cfe0fdcd6039ed4383900",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/Adiba.jpeg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-adiba-logo-svg",
+      "name": "adiba-logo",
+      "alt": "adiba-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/adiba-logo.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 4850,
+      "sha256": "014598d86dfafe3b76e0dfd09096a7a272a235836a5b3b1ca1097bc568562a84",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/adiba-logo.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-mikah-portrait-webp",
+      "name": "Mikah Dang",
+      "alt": "Mikah Dang",
+      "kind": "photo",
+      "src": "photos/fellows/mikah-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 232740,
+      "sha256": "917b44148fc8290e4071f52c644e1b73efc685c3a98086bcd4167bafb1e17ccc",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/mikah-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-mohammed-interstellar-portrait-webp",
+      "name": "Mohammed Ibrahim Abdelrazek Ali",
+      "alt": "Mohammed Ibrahim Abdelrazek Ali",
+      "kind": "photo",
+      "src": "photos/fellows/mohammed-interstellar-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 88326,
+      "sha256": "cb79af3b0647c4afbed6a6bae34358dbae00bed9988f6d4075ecd3e029301e20",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/mohammed-interstellar-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-interstellar-symbol-svg",
+      "name": "interstellar-symbol",
+      "alt": "interstellar-symbol",
+      "kind": "logo",
+      "src": "logos/partners/homepage/interstellar-symbol.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 627189,
+      "sha256": "5ba3a831d6673f13f9acfe2c292758073d9a930230e3953349fe71b414636531",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/interstellar-symbol.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-vijay-portrait-webp",
+      "name": "Vijay Krishna Somaraju",
+      "alt": "Vijay Krishna Somaraju",
+      "kind": "photo",
+      "src": "photos/fellows/vijay-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 368168,
+      "sha256": "7efd074043f957683059f474085007f33d865530a3f387326c1f522f0c9b9873",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/vijay-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-vyapti-logo-png",
+      "name": "vyapti-logo",
+      "alt": "vyapti-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/vyapti-logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 5107,
+      "sha256": "e89d09de871921c5aa45c7960086ba4fb404f376675a8c48b734dec1d43d47e9",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/vyapti-logo.png"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-parag-kotak-dsc08467-jpg",
+      "name": "Parag Kotak",
+      "alt": "Parag Kotak",
+      "kind": "photo",
+      "src": "photos/fellows/parag-kotak-dsc08467.jpg",
+      "folder": "photos/fellows",
+      "mediaType": "image/jpeg",
+      "bytes": 3022385,
+      "sha256": "3b8134c80b054b2849c88f57eafbc9972c9227751e8fae53e98aa4d2a3bd40cb",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/parag-kotak-dsc08467.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-dariya-portrait-webp",
+      "name": "Dariya Smailova",
+      "alt": "Dariya Smailova",
+      "kind": "photo",
+      "src": "photos/fellows/dariya-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 50490,
+      "sha256": "403fabfad69726e7a4d1b1da1d8cf93cc0b941ec0e3d1cb61eeda353b82ee6a8",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/dariya-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-jamal-portrait-webp",
+      "name": "Jamal Bin Kamaludin",
+      "alt": "Jamal Bin Kamaludin",
+      "kind": "photo",
+      "src": "photos/fellows/jamal-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 257744,
+      "sha256": "e088dbcf817d4a9fab36cb8f0408d1ba431e883d3a8666545267e479c2fc09d3",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/jamal-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-dextrum-logo-svg",
+      "name": "dextrum-logo",
+      "alt": "dextrum-logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/dextrum-logo.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 3655,
+      "sha256": "db3d78318d36094f0da8a836245cedaf854b9050a2d2c1fddab39853f4484aa3",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/dextrum-logo.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-fellows-dr-satheesh-portrait-webp",
+      "name": "Dr Satheesh Kumar Veluswamy",
+      "alt": "Dr Satheesh Kumar Veluswamy",
+      "kind": "photo",
+      "src": "photos/fellows/dr-satheesh-portrait.webp",
+      "folder": "photos/fellows",
+      "mediaType": "image/webp",
+      "bytes": 89966,
+      "sha256": "63280fc574aa8ecf67377f663018d7bdca77e8017af85a8bf61263f73472ae18",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/fellows/dr-satheesh-portrait.webp"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-barrier-symbol-svg",
+      "name": "barrier-symbol",
+      "alt": "barrier-symbol",
+      "kind": "logo",
+      "src": "logos/partners/homepage/barrier-symbol.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 1268,
+      "sha256": "e1364cfeac3b2abe86cbb9cff02b215d0ceb8e6742eb776cb317b35c120c3f73",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/portfolio/barrier-symbol.svg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-alina-tuhina-cutout-png",
+      "name": "Alina Truhina",
+      "alt": "Alina Truhina",
+      "kind": "photo",
+      "src": "photos/team/current/alina-tuhina-cutout.png",
+      "folder": "photos/team/current",
+      "mediaType": "image/png",
+      "bytes": 843778,
+      "sha256": "25ac81df95b44385af61964d7e8afad80066346fb08523d68efcdea82f0ec7c5",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/alina-tuhina-cutout.png"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-roo-rogers-cutout-png",
+      "name": "Roo Rogers",
+      "alt": "Roo Rogers",
+      "kind": "photo",
+      "src": "photos/team/current/roo-rogers-cutout.png",
+      "folder": "photos/team/current",
+      "mediaType": "image/png",
+      "bytes": 1070301,
+      "sha256": "0c66e700d1e5ba82cd36156ec18ee4c1063e36d011420019e6eaf5801878586d",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/roo-rogers-cutout.png"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-ollie-graham-yooll-cutout-png",
+      "name": "Ollie Graham-Yooll",
+      "alt": "Ollie Graham-Yooll",
+      "kind": "photo",
+      "src": "photos/team/current/ollie-graham-yooll-cutout.png",
+      "folder": "photos/team/current",
+      "mediaType": "image/png",
+      "bytes": 753061,
+      "sha256": "38c5363d8916c0032fd1047f6d792232cf126b045aabf9a958df1756dc96614e",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/ollie-graham-yooll-cutout.png"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-karan-pinto-cutout-png",
+      "name": "Karan Pinto",
+      "alt": "Karan Pinto",
+      "kind": "photo",
+      "src": "photos/team/current/karan-pinto-cutout.png",
+      "folder": "photos/team/current",
+      "mediaType": "image/png",
+      "bytes": 812605,
+      "sha256": "8d4238692c907ca0c4f7a76dc7cae707c71c6d5d5069d52d1db40a825b5d6b5d",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/karan-pinto-cutout.png"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-konstantin-behr-jpg",
+      "name": "Konstantin Behr",
+      "alt": "Konstantin Behr",
+      "kind": "photo",
+      "src": "photos/team/current/konstantin-behr.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 177710,
+      "sha256": "b48e058ebcb2f98bb799599d1246433915e39c0a9731900444818015cd041a10",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/konstantin-behr.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-shamona-maharaj-jpg",
+      "name": "Shamona Maharaj",
+      "alt": "Shamona Maharaj",
+      "kind": "photo",
+      "src": "photos/team/current/shamona-maharaj.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 149201,
+      "sha256": "a5fc337f1bd4dfa98daa0a4d25ca2b4dab1891d1fec2a25ba4259c319062e7d6",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/shamona-maharaj.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-koleen-ocampo-studio-jpg",
+      "name": "Koleen Ocampo",
+      "alt": "Koleen Ocampo",
+      "kind": "photo",
+      "src": "photos/team/current/koleen-ocampo-studio.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 2650173,
+      "sha256": "8c7224b1f35f1347812fc0a60b13a0a4f4ca5bcab955745277b72cfcfe00f153",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/koleen-ocampo-studio.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-beppe-coleiro-jpg",
+      "name": "Beppe Coleiro",
+      "alt": "Beppe Coleiro",
+      "kind": "photo",
+      "src": "photos/team/current/beppe-coleiro.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 3211841,
+      "sha256": "2d69654c3f208613b571b77967e2681b8cec621e27652e94038742f0a2fc1e2a",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/beppe-coleiro.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-jj-erpaiboon-studio-jpg",
+      "name": "JJ Erpaiboon",
+      "alt": "JJ Erpaiboon",
+      "kind": "photo",
+      "src": "photos/team/current/jj-erpaiboon-studio.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 3400457,
+      "sha256": "174bc233373637d7bfb5ea45a6d8764759d3ffe0fade7d6f22f3097b2d9cf500",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/jj-erpaiboon-studio.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-james-cannan-studio-jpg",
+      "name": "James Cannan",
+      "alt": "James Cannan",
+      "kind": "photo",
+      "src": "photos/team/current/james-cannan-studio.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 3368462,
+      "sha256": "e0677bba7de9bca995b9af9f2b8eec452da73785b8213799d2d81aa78a45c0fa",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/james-cannan-studio.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-abdelrehman-mattar-2026-jpg",
+      "name": "Abdelrahman Mattar",
+      "alt": "Abdelrahman Mattar",
+      "kind": "photo",
+      "src": "photos/team/current/abdelrehman-mattar-2026.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 202706,
+      "sha256": "91614cbd28abd1d9f6d73cabdd596ea5976fe97bfb0d28ce10ac7ea134475c65",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/abdelrehman-mattar-2026.jpg"
+      }
+    },
+    {
+      "id": "homepage--photos-team-current-aiden-yongwoo-kim-2026-10-jpg",
+      "name": "Aiden Yongwoo Kim",
+      "alt": "Aiden Yongwoo Kim",
+      "kind": "photo",
+      "src": "photos/team/current/aiden-yongwoo-kim-2026-10.jpg",
+      "folder": "photos/team/current",
+      "mediaType": "image/jpeg",
+      "bytes": 104089,
+      "sha256": "043763c3404d6135e466bd5044a25117f6348f5475906cae8657685d8e971c5e",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/team/aiden-yongwoo-kim-2026-10.jpg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-utopia-capital-png",
+      "name": "UTOPIA logo",
+      "alt": "UTOPIA logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/utopia-capital.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 114491,
+      "sha256": "7c5ffd50f5a47e47a5209eb3c235461631ff22df1bf9fb96a9e6b8f373149a6e",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/logo/utopia-capital.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-aytpical-logo-png",
+      "name": "Atypical Ventures logo",
+      "alt": "Atypical Ventures logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/Aytpical logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 85389,
+      "sha256": "524dd8da41724e76b37e62c7d6e6f13f02e83e87e5a9fcb391e4fd4cf47d6978",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/Aytpical logo.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-radical-fund-logo-transparent-png",
+      "name": "The Radical Fund logo",
+      "alt": "The Radical Fund logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/radical-fund-logo-transparent.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 133935,
+      "sha256": "b948b5a784d72a2095fd6c9304e0f3a8b58e07dbd9dda4099dc67ec515215d00",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/radical-fund-logo-transparent.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-qdb-logo-updated-png",
+      "name": "Qatar Development Bank logo",
+      "alt": "Qatar Development Bank logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/qdb-logo-updated.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 97937,
+      "sha256": "82cd9937853d3e90b8141abb4c9cced22013558ccafe71a8c579d40e968bd07e",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/qdb-logo-updated.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-chatgpt-svg",
+      "name": "ChatGPT logo",
+      "alt": "ChatGPT logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/chatgpt.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 5432,
+      "sha256": "0379caca4a09225c226b30f066a0d10814e6dc3604d649d9f7f2e6b2e4c67e60",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/chatgpt.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-claude-wordmark-svg",
+      "name": "Claude logo",
+      "alt": "Claude logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/claude-wordmark.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 7968,
+      "sha256": "3f2f5db5f788a98c68a18aa09518eebc65ed8ee55e08c390d5b5df96d640eafc",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/claude-wordmark.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-cursor-svg",
+      "name": "Cursor logo",
+      "alt": "Cursor logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/cursor.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 3014,
+      "sha256": "b59e8617a3a07a7e5374e341d59ae532074cbf7989aafc8eaa9d3ca9b80bda12",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/cursor.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-factory-svg",
+      "name": "Factory logo",
+      "alt": "Factory logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/factory.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 10479,
+      "sha256": "3e1c6e2f6de3e541d46900ef156b10f2e0f62226a1d11af6bb18994e9dc1cff0",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/factory.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-8090-svg",
+      "name": "8090 Software Factory logo",
+      "alt": "8090 Software Factory logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/8090.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 500,
+      "sha256": "05b36859e7c352ec0c19461b57f12f825d20e55f84a1dea52fccd49514378265",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/8090.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-greptile-svg",
+      "name": "Greptile logo",
+      "alt": "Greptile logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/greptile.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 5981,
+      "sha256": "502de0e8e6eb96e4c077a93467d8e5d7fcd0217579756fb7fa8f6006fa7b5b25",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/greptile.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-linear-svg",
+      "name": "Linear logo",
+      "alt": "Linear logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/linear.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 468,
+      "sha256": "ca881bd8c886c04ca7f011658774c93bda0745890927a4503ca82827d8b70ab9",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/linear.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-nextjs-mark-png",
+      "name": "Next.js logo",
+      "alt": "Next.js logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/nextjs-mark.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 7930,
+      "sha256": "1386da09b2788622a6f8bcbb14da7c67f2b4b936aeedfd6a6396d9b1da66653f",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/nextjs-mark.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-convex-logo-png",
+      "name": "Convex logo",
+      "alt": "Convex logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/convex logo.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 109134,
+      "sha256": "593862b1407a9ea13768b260f34f824e8d1d424887a27ae0c778c1ba1601d950",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/convex logo.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-stripe-logo-svg-png",
+      "name": "Stripe logo",
+      "alt": "Stripe logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/stripe logo.svg.png",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/png",
+      "bytes": 31546,
+      "sha256": "53eaf19cd989afca6c0e98fd18b78b880de448f044cd192cb7e2c4c2ac0fca35",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/stripe logo.svg.png"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-vercel-svg",
+      "name": "Vercel logo",
+      "alt": "Vercel logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/vercel.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 1076,
+      "sha256": "39f7d1838044f1bcb14d7e0fb950f7c3659b462d2a728f2df4968a4e260afedd",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/vercel.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-railway-svg",
+      "name": "Railway logo",
+      "alt": "Railway logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/railway.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 1053,
+      "sha256": "5e6807cb0385a12a54de4c62b2fd3bce940ce61ebc9c4e9b3dd2143d9d433657",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/railway.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-sentry-svg",
+      "name": "Sentry logo",
+      "alt": "Sentry logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/sentry.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 701,
+      "sha256": "d0fbd142d19ae5673ef7c16b1a334160a2cd24edef9e1d549be9344322bbe03e",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/sentry.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-posthog-svg",
+      "name": "PostHog logo",
+      "alt": "PostHog logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/posthog.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 1011,
+      "sha256": "85191881b464b9e92ea1c9de7d52217d745bb228029f357f6f4d37621a955c63",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/posthog.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-nvidia-svg",
+      "name": "NVIDIA logo",
+      "alt": "NVIDIA logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/nvidia.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 665,
+      "sha256": "6dce22178611da6f25f8a518f63cb6030e42ef429e875ddfc9e6918a2cad6152",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/nvidia.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-partners-homepage-amd-svg",
+      "name": "AMD logo",
+      "alt": "AMD logo",
+      "kind": "logo",
+      "src": "logos/partners/homepage/amd.svg",
+      "folder": "logos/partners/homepage",
+      "mediaType": "image/svg+xml",
+      "bytes": 694,
+      "sha256": "00e845a95a362db8478969e4969b73f5cd105690011986c78ce78ca4c76c992d",
+      "usage": "Current homepage asset. Preserve the original crop, identity and named-person context.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "path": "public/images/amd.svg"
+      }
+    },
+    {
+      "id": "homepage--logos-brand-current-the-utopia-studio-wordmark-svg",
+      "name": "The Utopia Studio — current vector wordmark",
+      "alt": "The Utopia Studio — current vector wordmark",
+      "kind": "wordmark",
+      "src": "logos/brand/current/the-utopia-studio-wordmark.svg",
+      "folder": "logos/brand/current",
+      "mediaType": "image/svg+xml",
+      "bytes": 2246,
+      "sha256": "a0cca3c3af000375639b613440d389cd202a6c604129d62f22db427f517cb665",
+      "usage": "Use this stacked wordmark for current Studio identity. Do not use the retired detached slash mark.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-astrolabe-svg",
+      "name": "Astrolabe — animated SVG",
+      "alt": "Astrolabe — animated SVG",
+      "kind": "illustration",
+      "src": "animations/svg/astrolabe.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 4630,
+      "sha256": "88c17094b6e0a1558d257b9cc5b97edfcce7122919c81da2111d4e87aba5a91a",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-utopia-os-svg",
+      "name": "Utopia-Os — product diagram",
+      "alt": "Utopia-Os — product diagram",
+      "kind": "illustration",
+      "src": "animations/svg/utopia-os.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 518,
+      "sha256": "40949c2b309a89a43227289eba53a83d44ba83e46f7ae2c6d978998cc3c888e6",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-atliq-svg",
+      "name": "Atliq — product diagram",
+      "alt": "Atliq — product diagram",
+      "kind": "illustration",
+      "src": "animations/svg/atliq.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 410,
+      "sha256": "7f36e451b98c1b5bc6b6fd64685717dd36461b017519c5862935f564eb7ce446",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-ceramic-svg",
+      "name": "Ceramic — product diagram",
+      "alt": "Ceramic — product diagram",
+      "kind": "illustration",
+      "src": "animations/svg/ceramic.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 471,
+      "sha256": "4ca463bf73a0b7969db26bbc03ab420eb48eec8236863bb0c7cb29de5f91af69",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-cloud-svg",
+      "name": "Cloud — product diagram",
+      "alt": "Cloud — product diagram",
+      "kind": "illustration",
+      "src": "animations/svg/cloud.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 787,
+      "sha256": "1696d2b3e24be521ba295865da6cf2b5e9e48c722738394989396d15f82926e5",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-svg-skills-svg",
+      "name": "Skills — product diagram",
+      "alt": "Skills — product diagram",
+      "kind": "illustration",
+      "src": "animations/svg/skills.svg",
+      "folder": "animations/svg",
+      "mediaType": "image/svg+xml",
+      "bytes": 607,
+      "sha256": "1d738558231aae2111bfaea03525523b52a2048786893f5d7bd4739cb885d4d3",
+      "usage": "Source-backed homepage SVG. Astrolabe has reduced-motion-aware idle cycles. Product diagrams are static; the source product-card container owns their flip.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      }
+    },
+    {
+      "id": "homepage--animations-utopia-studio-homepage-sources-zip",
+      "name": "Homepage animation source bundle",
+      "alt": "Homepage animation source bundle",
+      "kind": "source",
+      "src": "animations/utopia-studio-homepage-sources.zip",
+      "folder": "animations/source",
+      "mediaType": "application/zip",
+      "bytes": 75884,
+      "sha256": "b7db47740eeefa97602e14384b947de646d62d544220c6bf1a7b45bfb60033ad",
+      "usage": "Original pinned Next.js/Framer/CSS sources plus portable Ceramic astrolabe/product components. Preserve dependency boundaries and reduced motion.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      },
+      "previewSrc": "animations/svg/astrolabe.svg"
+    },
+    {
+      "id": "homepage--typography-twklausanne-350-woff2",
+      "name": "TWK Lausanne 350",
+      "alt": "TWK Lausanne 350",
+      "kind": "font",
+      "src": "typography/TWKLausanne-350.woff2",
+      "folder": "typography",
+      "mediaType": "font/woff2",
+      "bytes": 30920,
+      "sha256": "e8765134c4b4e465a73dbb7ddcf50da11ae95c596293bf86caa5c21d42d67381",
+      "usage": "Studio-authorized typeface for Studio deliverables; do not imply an open font license.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      },
+      "previewSrc": "logos/brand/current/the-utopia-studio-wordmark.svg"
+    },
+    {
+      "id": "homepage--typography-twklausanne-500-woff2",
+      "name": "TWK Lausanne 500",
+      "alt": "TWK Lausanne 500",
+      "kind": "font",
+      "src": "typography/TWKLausanne-500.woff2",
+      "folder": "typography",
+      "mediaType": "font/woff2",
+      "bytes": 30900,
+      "sha256": "88925c18d2d0288d2d37acc586efd78e9387f191599e86755760947024e9e613",
+      "usage": "Studio-authorized typeface for Studio deliverables; do not imply an open font license.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      },
+      "previewSrc": "logos/brand/current/the-utopia-studio-wordmark.svg"
+    },
+    {
+      "id": "homepage--typography-twklausanne-700-woff2",
+      "name": "TWK Lausanne 700",
+      "alt": "TWK Lausanne 700",
+      "kind": "font",
+      "src": "typography/TWKLausanne-700.woff2",
+      "folder": "typography",
+      "mediaType": "font/woff2",
+      "bytes": 31088,
+      "sha256": "17e921e79da7db5200bf6306e57c9a561ff4dfa1215d250f15384aa0d23a1d23",
+      "usage": "Studio-authorized typeface for Studio deliverables; do not imply an open font license.",
+      "themes": [
+        "utopia-default"
+      ],
+      "placements": [
+        "editorial",
+        "presentation",
+        "marketing",
+        "application"
+      ],
+      "aspectRatios": [
+        "original",
+        "free"
+      ],
+      "license": "The Utopia Studio supplied homepage assets; use only for the named people, ventures and Studio context.",
+      "credit": "The Utopia Studio; original named brand owners retain their marks.",
+      "source": {
+        "repository": "The-Utopia-Studio/the-studio-website",
+        "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+        "homepage": "https://www.utopia-studio.co/",
+        "baseline": "docs/homepage-design-baseline.md"
+      },
+      "previewSrc": "logos/brand/current/the-utopia-studio-wordmark.svg"
+    },
     {
       "id": "images--illustrations--beer",
       "name": "Beer",
@@ -84,7 +2334,6 @@
       "bytes": 2438413,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -94,7 +2343,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/beer.jpg"
+      "previewSrc": "previews/images/illustrations/beer.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--cactus",
@@ -107,7 +2360,6 @@
       "bytes": 2775854,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -117,7 +2369,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/cactus.jpg"
+      "previewSrc": "previews/images/illustrations/cactus.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--cards",
@@ -130,7 +2386,6 @@
       "bytes": 1982216,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -140,7 +2395,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/cards.jpg"
+      "previewSrc": "previews/images/illustrations/cards.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--digital-hand",
@@ -153,7 +2412,6 @@
       "bytes": 2795107,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -163,7 +2421,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/digital-hand.jpg"
+      "previewSrc": "previews/images/illustrations/digital-hand.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--digital-human",
@@ -176,7 +2438,6 @@
       "bytes": 2651825,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -186,7 +2447,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/digital-human.jpg"
+      "previewSrc": "previews/images/illustrations/digital-human.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--dog-in-desert",
@@ -199,7 +2464,6 @@
       "bytes": 3064019,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -209,7 +2473,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/dog-in-desert.jpg"
+      "previewSrc": "previews/images/illustrations/dog-in-desert.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--doha-oryx",
@@ -222,7 +2490,6 @@
       "bytes": 25148350,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -232,7 +2499,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/doha-oryx.jpg"
+      "previewSrc": "previews/images/illustrations/doha-oryx.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--happy-people",
@@ -245,7 +2516,6 @@
       "bytes": 2305273,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -255,7 +2525,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/happy-people.jpg"
+      "previewSrc": "previews/images/illustrations/happy-people.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--harness-horse",
@@ -268,7 +2542,6 @@
       "bytes": 2860396,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -278,7 +2551,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/harness-horse.jpg"
+      "previewSrc": "previews/images/illustrations/harness-horse.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--how-to",
@@ -291,7 +2568,6 @@
       "bytes": 2806958,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -301,7 +2577,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/how-to.jpg"
+      "previewSrc": "previews/images/illustrations/how-to.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--oryx-painting",
@@ -314,7 +2594,6 @@
       "bytes": 2113054,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -324,7 +2603,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/oryx-painting.jpg"
+      "previewSrc": "previews/images/illustrations/oryx-painting.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--oryx",
@@ -337,7 +2620,6 @@
       "bytes": 1933696,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -347,7 +2629,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/oryx.jpg"
+      "previewSrc": "previews/images/illustrations/oryx.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--space",
@@ -360,7 +2646,6 @@
       "bytes": 2526792,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -370,7 +2655,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/space.jpg"
+      "previewSrc": "previews/images/illustrations/space.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "images--illustrations--spacemen",
@@ -383,7 +2672,6 @@
       "bytes": 2716619,
       "usage": "Brand illustration or editorial image. Preserve composition and confirm the intended campaign or presentation context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -393,7 +2681,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/images/illustrations/spacemen.jpg"
+      "previewSrc": "previews/images/illustrations/spacemen.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--brand--the-utopia-studio-official-black",
@@ -406,7 +2698,6 @@
       "bytes": 2828,
       "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -416,7 +2707,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/brand/the-utopia-studio-official-black.png"
+      "previewSrc": "previews/logos/brand/the-utopia-studio-official-black.png",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--brand--the-utopia-studio-official-white",
@@ -429,7 +2724,6 @@
       "bytes": 2828,
       "usage": "Official The Utopia Studio identity. Preserve proportions and use the contrast-appropriate variant.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -439,7 +2733,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/brand/the-utopia-studio-official-white.png"
+      "previewSrc": "previews/logos/brand/the-utopia-studio-official-white.png",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--brand--the-utopia-studio-wordmark",
@@ -452,7 +2750,6 @@
       "bytes": 33104,
       "usage": "Primary The Utopia Studio wordmark. Preserve the orange and charcoal colours, proportions, and clear space.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -463,7 +2760,11 @@
       ],
       "license": "The Utopia Studio internal brand asset",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/brand/the-utopia-studio-wordmark.png"
+      "previewSrc": "previews/logos/brand/the-utopia-studio-wordmark.png",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--8090",
@@ -476,7 +2777,6 @@
       "bytes": 2856,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -486,7 +2786,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/8090.jpg"
+      "previewSrc": "previews/logos/partners/8090.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--amd",
@@ -499,7 +2803,6 @@
       "bytes": 694,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -508,7 +2811,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--claude",
@@ -521,7 +2828,6 @@
       "bytes": 296,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -530,7 +2836,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--convex",
@@ -543,7 +2853,6 @@
       "bytes": 109134,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -553,7 +2862,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/convex.jpg"
+      "previewSrc": "previews/logos/partners/convex.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--cursor",
@@ -566,7 +2879,6 @@
       "bytes": 17580,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -575,7 +2887,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--hosted-ai",
@@ -588,7 +2904,6 @@
       "bytes": 631655,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -598,7 +2913,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/hosted-ai.jpg"
+      "previewSrc": "previews/logos/partners/hosted-ai.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--linear",
@@ -611,7 +2930,6 @@
       "bytes": 468,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -620,7 +2938,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--next-js",
@@ -633,7 +2955,6 @@
       "bytes": 11001,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -643,7 +2964,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/next-js.jpg"
+      "previewSrc": "previews/logos/partners/next-js.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--nvidia",
@@ -656,7 +2981,6 @@
       "bytes": 665,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -665,7 +2989,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--posthog",
@@ -678,7 +3006,6 @@
       "bytes": 1011,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -687,7 +3014,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--railway",
@@ -700,7 +3031,6 @@
       "bytes": 1047,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -709,7 +3039,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--sentry",
@@ -722,7 +3056,6 @@
       "bytes": 701,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -731,7 +3064,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--sia",
@@ -744,7 +3081,6 @@
       "bytes": 75881,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -754,7 +3090,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/sia.jpg"
+      "previewSrc": "previews/logos/partners/sia.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--stripe",
@@ -767,7 +3107,6 @@
       "bytes": 31546,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -777,7 +3116,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/logos/partners/stripe.jpg"
+      "previewSrc": "previews/logos/partners/stripe.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "logos--partners--vercel",
@@ -790,7 +3133,6 @@
       "bytes": 1076,
       "usage": "Partner or technology identity. Confirm placement permission and preserve the supplied artwork.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -799,7 +3141,11 @@
         "closing"
       ],
       "license": "User supplied; external publication rights not independently verified",
-      "credit": "The Utopia Studio"
+      "credit": "The Utopia Studio",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--events--haji-surgery",
@@ -812,7 +3158,6 @@
       "bytes": 4031495,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -822,7 +3167,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/events/haji-surgery.jpg"
+      "previewSrc": "previews/photos/events/haji-surgery.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--events--haji",
@@ -835,7 +3184,6 @@
       "bytes": 6582073,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -845,7 +3193,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/events/haji.jpg"
+      "previewSrc": "previews/photos/events/haji.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--conversation",
@@ -858,7 +3210,6 @@
       "bytes": 5417540,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -868,7 +3219,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/conversation.jpg"
+      "previewSrc": "previews/photos/team/conversation.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--abdelrehman-mattar",
@@ -881,7 +3236,6 @@
       "bytes": 69577,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -891,7 +3245,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/abdelrehman-mattar.jpg"
+      "previewSrc": "previews/photos/team/portraits/abdelrehman-mattar.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--ahmad-nazzal",
@@ -904,7 +3262,6 @@
       "bytes": 161181,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -914,7 +3271,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/ahmad-nazzal.jpg"
+      "previewSrc": "previews/photos/team/portraits/ahmad-nazzal.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--alex-san",
@@ -927,7 +3288,6 @@
       "bytes": 183284,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -937,7 +3297,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/alex-san.jpg"
+      "previewSrc": "previews/photos/team/portraits/alex-san.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--alina-tuhina",
@@ -950,7 +3314,6 @@
       "bytes": 199097,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -960,7 +3323,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/alina-tuhina.jpg"
+      "previewSrc": "previews/photos/team/portraits/alina-tuhina.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--c",
@@ -973,7 +3340,6 @@
       "bytes": 119124,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -983,7 +3349,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/c.jpg"
+      "previewSrc": "previews/photos/team/portraits/c.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--james-cannan",
@@ -996,7 +3366,6 @@
       "bytes": 56348,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1006,7 +3375,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/james-cannan.jpg"
+      "previewSrc": "previews/photos/team/portraits/james-cannan.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--jj-erpaiboon",
@@ -1019,7 +3392,6 @@
       "bytes": 197345,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1029,7 +3401,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/jj-erpaiboon.jpg"
+      "previewSrc": "previews/photos/team/portraits/jj-erpaiboon.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--karan-pinto",
@@ -1042,7 +3418,6 @@
       "bytes": 174893,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1052,7 +3427,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/karan-pinto.jpg"
+      "previewSrc": "previews/photos/team/portraits/karan-pinto.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--koleen-ocampo",
@@ -1065,7 +3444,6 @@
       "bytes": 212494,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1075,7 +3453,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/koleen-ocampo.jpg"
+      "previewSrc": "previews/photos/team/portraits/koleen-ocampo.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--konstantin-behr",
@@ -1088,7 +3470,6 @@
       "bytes": 177710,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1098,7 +3479,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/konstantin-behr.jpg"
+      "previewSrc": "previews/photos/team/portraits/konstantin-behr.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--ollie-graham-yooll",
@@ -1111,7 +3496,6 @@
       "bytes": 177269,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1121,7 +3505,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/ollie-graham-yooll.jpg"
+      "previewSrc": "previews/photos/team/portraits/ollie-graham-yooll.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--roo-rogers",
@@ -1134,7 +3522,6 @@
       "bytes": 210401,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1144,7 +3531,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/roo-rogers.jpg"
+      "previewSrc": "previews/photos/team/portraits/roo-rogers.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--portraits--shamona-maharaj",
@@ -1157,7 +3548,6 @@
       "bytes": 149201,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1167,7 +3557,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/portraits/shamona-maharaj.jpg"
+      "previewSrc": "previews/photos/team/portraits/shamona-maharaj.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-2",
@@ -1180,7 +3574,6 @@
       "bytes": 11222132,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1190,7 +3583,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-2.jpg"
+      "previewSrc": "previews/photos/team/team-2.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-3",
@@ -1203,7 +3600,6 @@
       "bytes": 11843026,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1213,7 +3609,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-3.jpg"
+      "previewSrc": "previews/photos/team/team-3.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-4",
@@ -1226,7 +3626,6 @@
       "bytes": 4919881,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1236,7 +3635,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-4.jpg"
+      "previewSrc": "previews/photos/team/team-4.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-meeting",
@@ -1249,7 +3652,6 @@
       "bytes": 12681255,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1259,7 +3661,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-meeting.jpg"
+      "previewSrc": "previews/photos/team/team-meeting.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-rooftop",
@@ -1272,7 +3678,6 @@
       "bytes": 11587555,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1282,7 +3687,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-rooftop.jpg"
+      "previewSrc": "previews/photos/team/team-rooftop.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--team-stairs",
@@ -1295,7 +3704,6 @@
       "bytes": 14903670,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1305,7 +3713,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/team-stairs.jpg"
+      "previewSrc": "previews/photos/team/team-stairs.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "photos--team--whiteboard-pods",
@@ -1318,7 +3730,6 @@
       "bytes": 10675717,
       "usage": "Editorial brand photography. Preserve focal point and aspect ratio; confirm subject and publication context.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1328,7 +3739,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/photos/team/whiteboard-pods.jpg"
+      "previewSrc": "previews/photos/team/whiteboard-pods.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "videos--illustrations--doha-oryx",
@@ -1341,7 +3756,6 @@
       "bytes": 10951561,
       "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1351,7 +3765,11 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/videos/illustrations/doha-oryx.jpg"
+      "previewSrc": "previews/videos/illustrations/doha-oryx.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     },
     {
       "id": "videos--illustrations--harness-horse",
@@ -1364,7 +3782,6 @@
       "bytes": 21295290,
       "usage": "Brand motion asset. Provide an accessible static fallback when the delivery format requires one.",
       "themes": [
-        "utopia-default",
         "utopia-cloudblur"
       ],
       "placements": [
@@ -1374,7 +3791,17 @@
       ],
       "license": "User supplied; external publication rights not independently verified",
       "credit": "The Utopia Studio",
-      "previewSrc": "previews/videos/illustrations/harness-horse.jpg"
+      "previewSrc": "previews/videos/illustrations/harness-horse.jpg",
+      "retiredForThemes": [
+        "utopia-default"
+      ],
+      "retirementReason": "Superseded by the current Studio homepage inventory; original file retained."
     }
-  ]
+  ],
+  "sourceRevision": {
+    "repository": "The-Utopia-Studio/the-studio-website",
+    "commit": "654dcf716254bc6a572af9f2e663c87883fd7088",
+    "homepage": "https://www.utopia-studio.co/",
+    "baseline": "docs/homepage-design-baseline.md"
+  }
 }
