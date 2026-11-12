@@ -1,0 +1,11 @@
+/* One type treatment for all primary homepage section headings. */
+.title {
+  font-family: var(--font-sans);
+  font-size: var(--type-h2);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--tracking-heading);
+  color: var(--color-text-primary);
+  text-transform: none;
+  text-wrap: balance;
+}

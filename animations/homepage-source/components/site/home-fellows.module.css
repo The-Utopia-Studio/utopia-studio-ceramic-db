@@ -1,0 +1,170 @@
+.rail {
+  display: flex;
+  align-items: stretch;
+  gap: var(--fellow-card-gap);
+  padding: var(--space-4) var(--gutter);
+  overflow-x: auto;
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+  overflow-anchor: none;
+  scroll-padding-inline: var(--gutter);
+  overscroll-behavior-x: contain;
+}
+.card {
+  --reveal: 0;
+  flex: 0 0 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: row;
+  scroll-snap-align: start;
+  font-family: var(--font-sans);
+  color: var(--fellow-card-text);
+}
+.portrait {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: var(--fellow-media-radius);
+  background: var(--color-bg-subtle);
+  display: grid;
+  place-items: center;
+  margin-bottom: var(--space-6);
+}
+.portrait img { object-fit: cover; }
+.wordmark { font-size: var(--type-h2); font-weight: var(--fw-medium); letter-spacing: var(--tracking-heading); }
+.identity { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-4); }
+.logo {
+  position: relative;
+  flex: 0 0 var(--fellow-logo-size);
+  height: var(--fellow-logo-size);
+  background: var(--color-bg-subtle);
+}
+.logo img { object-fit: contain; padding: var(--space-1); }
+.logo[data-light] { background: var(--fellow-logo-light-surface); }
+.company { font-size: var(--type-h4); font-weight: var(--fw-medium); line-height: var(--lh-snug); margin-bottom: var(--space-1); }
+.name { font-size: var(--type-body-sm); color: var(--fellow-card-text-secondary); line-height: var(--lh-body); }
+.description { font-size: var(--type-body); line-height: var(--lh-body); color: var(--fellow-card-text-secondary); }
+.link { margin-top: auto; padding-top: var(--space-6); color: var(--fellow-card-text); font-size: var(--type-body-sm); text-underline-offset: var(--space-1); }
+.link:hover { color: var(--fellow-card-text-brand); }
+.rail:focus-visible, .link:focus-visible { outline: var(--focus-ring-width) solid var(--focus-ring-color); outline-offset: var(--focus-ring-offset); }
+
+.scrollSection { position: relative; }
+.stage {
+  position: relative;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-block: 0 var(--space-16);
+}
+.stage > :first-child { width: 100%; }
+@media (min-width: 900px) {
+  .card[data-expanded] { --reveal: 1; }
+  .summary { display: none; }
+}
+@media (max-width: 899px) {
+  .story, .expandToggle { display: none; }
+}
+.compactLink { display: inline-block; margin-top: var(--space-4); color: var(--fellow-card-text); font-size: var(--type-body-sm); text-underline-offset: var(--space-1); }
+.compactLink:focus-visible { outline: var(--focus-ring-width) solid var(--focus-ring-color); outline-offset: var(--focus-ring-offset); }
+.expandToggle { position: absolute; inset: 0; z-index: 2; border: 0; background: transparent; cursor: pointer; }
+.expandToggle:focus-visible { outline: var(--focus-ring-width) solid var(--focus-ring-color); outline-offset: var(--focus-ring-offset); }
+
+.visual { flex: 0 0 var(--fellow-card-width); width: var(--fellow-card-width); }
+.story { width: calc(var(--fellow-story-width) * var(--reveal)); overflow: hidden; transition: width var(--fellow-motion-expand-duration) var(--fellow-motion-expand-ease); }
+.storyInner {
+  width: var(--fellow-story-width);
+  min-height: 100%;
+  padding: var(--space-6) var(--space-8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: clamp(0, calc((var(--reveal) - .25) / .75), 1);
+  transition: opacity var(--fellow-motion-expand-duration) var(--fellow-motion-expand-ease);
+}
+.storyLabel { color: var(--fellow-card-text-brand); font-size: var(--type-eyebrow); margin-bottom: var(--space-6); }
+.storyTitle { font-size: var(--type-h4); font-weight: var(--fw-medium); line-height: var(--lh-body); letter-spacing: var(--tracking-heading); margin-bottom: var(--space-4); text-wrap: pretty; }
+.storyInner .description { font-size: var(--type-body-sm); text-wrap: pretty; }
+.storyInner .link { margin-top: var(--space-6); padding-top: 0; }
+.rail { --fellow-card-width: min(var(--fellow-portrait-width), 40vw); --fellow-story-width: min(calc(var(--fellow-story-max-width) + var(--space-24) + var(--space-8)), 54vw); }
+@media (max-width: 640px) {
+  .rail { --fellow-card-width: min(var(--fellow-portrait-width), 72vw); }
+  .storyInner { padding: var(--space-3); }
+  .storyTitle { font-size: var(--type-body-lg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .story, .storyInner { transition: none; }
+}
+
+.visual { background: transparent; }
+.cover { position: relative; aspect-ratio: 4 / 3; overflow: hidden; background: var(--fellow-cover-surface); color: var(--fellow-cover-ink); }
+.cover svg { width: 100%; height: 100%; display: block; }
+.cover[data-venture="EVOS"], .cover[data-venture="Renacore"] { background: var(--fellow-cover-deep-surface); color: var(--fellow-cover-deep-ink); }
+.cover[data-venture="Azraq"], .cover[data-venture="Rimau"] { background: var(--fellow-cover-muted-surface); color: var(--fellow-cover-muted-ink); }
+.cardBody { padding: 0 var(--space-4) var(--space-6); }
+
+.logoFallback { font-size: var(--type-body-sm); font-weight: var(--fw-medium); }
+.founder { display: flex; align-items: center; gap: var(--space-2); margin-block: var(--space-3); min-height: var(--fellow-avatar-size); }
+.avatar { flex: 0 0 var(--fellow-avatar-size); height: var(--fellow-avatar-size); position: relative; overflow: hidden; }
+.avatar img { object-fit: cover; }
+.summary { color: var(--fellow-card-text-secondary); font-size: var(--type-body-sm); line-height: var(--lh-body); }
+
+.card { border-radius: var(--fellow-card-radius); overflow: hidden; background: var(--fellow-card-surface); }
+.visual { padding: 0; transition: padding var(--fellow-motion-expand-duration) var(--fellow-motion-expand-ease); }
+.coverFrame { position: relative; overflow: hidden; isolation: isolate; border-radius: var(--fellow-cover-radius); background: var(--fellow-card-surface); }
+.cover { aspect-ratio: 1; }
+.coverFrame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(transparent 35%, var(--fellow-cover-shade)); pointer-events: none; }
+.brandIdentity { position: absolute; z-index: 1; inset-inline: var(--space-3); bottom: var(--space-4); display: flex; align-items: center; gap: var(--space-3); }
+.brandIdentity .logo { flex: 0 0 var(--fellow-brand-size); height: var(--fellow-brand-size); display: grid; place-items: center; border-radius: var(--fellow-cover-radius); overflow: hidden; }
+.brandIdentity .company { margin: 0; overflow-wrap: anywhere; }
+.cardBody { padding: var(--space-2) var(--space-3) var(--space-4); }
+.avatar { border-radius: var(--fellow-cover-radius); }
+.rail { scrollbar-width: none; }
+.rail::-webkit-scrollbar { display: none; }
+@media (max-width: 640px) {
+  .brandIdentity { flex-direction: column; align-items: flex-start; gap: var(--space-2); }
+  .brandIdentity .logo { flex-basis: auto; width: var(--fellow-logo-size); height: var(--fellow-logo-size); }
+}
+
+.coverFrame { aspect-ratio: 1; }
+.fellowPortrait {
+  object-fit: cover;
+  /* Clip thin baked-in image edges without changing the card frame. */
+  transform: scale(1.02);
+  transform-origin: center;
+  mask-image: linear-gradient(to bottom, black 75%, transparent 98%);
+}
+.portraitFallback { position: absolute; width: var(--space-24); height: var(--space-24); inset: 0; margin: auto; border-radius: var(--fellow-cover-radius); overflow: hidden; }
+.portraitFallback img { object-fit: contain; padding: var(--space-3); }
+.portraitFallback[data-light] { background: var(--fellow-logo-light-surface); }
+.personIdentity { position: absolute; z-index: 1; inset-inline: var(--fellow-person-inset); bottom: var(--fellow-person-inset); }
+.personName { font-size: var(--type-h4); font-weight: var(--fellow-person-name-weight); color: var(--fellow-person-name-color); line-height: var(--lh-snug); letter-spacing: var(--tracking-heading); overflow-wrap: anywhere; }
+.initials { position: absolute; inset: 0; display: grid; place-items: center; font-size: var(--fellow-person-placeholder-size); color: var(--fellow-person-name-color); font-weight: var(--fw-medium); }
+.ventureIdentity { display: flex; align-items: center; gap: var(--fellow-identity-gap); margin-block: var(--space-3); min-height: var(--fellow-venture-logo-size); }
+.ventureLogo { position: relative; flex: 0 0 var(--fellow-venture-logo-size); height: var(--fellow-venture-logo-size); overflow: hidden; border-radius: var(--space-1); }
+.ventureLogo img { object-fit: contain; padding: var(--space-1); }
+.ventureLogo[data-light] { background: var(--fellow-logo-light-surface); }
+.ventureName { font-size: var(--fellow-venture-name-size); color: var(--fellow-venture-name-color); font-weight: var(--fw-medium); }
+
+@media (min-width: 900px) {
+  .card[data-expanded] .visual { padding: var(--space-2); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card, .visual { transition: none; }
+}
+
+/* Let the portraits lead; reveal the company alongside the expanded story. */
+@media (min-width: 900px) {
+  .visual { display: flex; flex-direction: column; }
+  .cardBody { max-height: 0; opacity: 0; overflow: hidden; padding-block: 0; transition: max-height var(--fellow-motion-expand-duration) var(--fellow-motion-expand-ease), opacity var(--fellow-motion-expand-duration) var(--fellow-motion-expand-ease); }
+  .card[data-expanded] .cardBody { max-height: var(--space-24); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cardBody { transition: none; }
+}
+
+.card { position: relative; }
+.cardLink { position: absolute; inset: 0; z-index: 3; border-radius: var(--radius-control); cursor: pointer; }
+.cardLink:focus-visible { outline: var(--focus-ring-width) solid var(--focus-ring-color); outline-offset: var(--focus-ring-offset); }
+
+.rail[data-rebasing] *, .rail[data-rebasing] *::before, .rail[data-rebasing] *::after { transition: none !important; }

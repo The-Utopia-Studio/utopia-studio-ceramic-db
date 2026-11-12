@@ -1,0 +1,43 @@
+.cards {
+  --logo-card-columns: var(--logo-card-columns-desktop);
+}
+
+.cards :global(.logo-grid) {
+  grid-template-columns: repeat(var(--logo-card-columns), minmax(0, 1fr));
+  gap: var(--logo-card-gap);
+  background: transparent;
+}
+
+.cards :global(.logo-grid-item) {
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  aspect-ratio: var(--logo-card-aspect-ratio);
+  padding: var(--logo-card-padding);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: var(--logo-card-radius);
+  background: var(--logo-card-surface);
+  color: var(--logo-card-foreground);
+}
+
+.cards :global(.logo-grid-stage) {
+  width: min(var(--logo-card-mark-width), var(--logo-card-mark-max-width));
+  height: var(--logo-card-mark-height);
+  opacity: 1;
+  filter: var(--logo-card-mark-filter);
+}
+
+.cards :global(.logo-grid-stage img) {
+  object-position: center;
+}
+
+@media (max-width: 1000px) {
+  .cards { --logo-card-columns: var(--logo-card-columns-tablet); }
+}
+
+@media (max-width: 640px) {
+  .cards { --logo-card-columns: var(--logo-card-columns-mobile); }
+  .cards :global(.logo-grid-item) { padding: var(--logo-card-padding-mobile); }
+}

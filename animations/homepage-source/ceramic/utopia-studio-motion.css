@@ -1,0 +1,34 @@
+.uds-studio-astrolabe-mark {
+  display: block;
+  width: var(--space-20);
+  height: auto;
+  margin: 0 auto var(--space-6);
+  color: var(--color-text-primary);
+  pointer-events: none;
+}
+/* Independent SVG layers keep idle motion separate from the scroll transform. */
+.uds-studio-astrolabe-dial, .uds-studio-astrolabe-rete, .uds-studio-astrolabe-alidade, .uds-studio-astrolabe-pulse {
+  transform-box: view-box;
+  transform-origin: var(--layout-hero-astrolabe-transform-origin) var(--layout-hero-astrolabe-transform-origin);
+}
+@media (prefers-reduced-motion: no-preference) {
+.uds-studio-astrolabe-dial { animation: uds-studio-turn var(--motion-hero-astrolabe-cycle) linear infinite reverse; }
+.uds-studio-astrolabe-rete { animation: uds-studio-turn var(--motion-hero-astrolabe-cycle-2) linear infinite; }
+.uds-studio-astrolabe-alidade { animation: uds-studio-sweep var(--motion-hero-astrolabe-cycle-3) ease-in-out infinite; }
+.uds-studio-astrolabe-pulse { animation: uds-studio-pulse var(--motion-hero-astrolabe-cycle-4) ease-out infinite; }
+}
+.uds-studio-astrolabe-core { filter: drop-shadow(0 0 var(--layout-hero-astrolabe-filter) var(--color-text-home-accent)); }
+@keyframes uds-studio-turn { to { transform: rotate(360deg); } }
+@keyframes uds-studio-sweep {
+  0%, 100% { transform: rotate(-18deg); }
+  50% { transform: rotate(28deg); }
+}
+@keyframes uds-studio-pulse {
+  0% { transform: scale(.65); opacity: 0; }
+  20% { opacity: .55; }
+  85%, 100% { transform: scale(2.1); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .uds-studio-astrolabe-dial, .uds-studio-astrolabe-rete, .uds-studio-astrolabe-alidade, .uds-studio-astrolabe-pulse { animation: none; }
+  .uds-studio-astrolabe-pulse { opacity: 0; }
+}
